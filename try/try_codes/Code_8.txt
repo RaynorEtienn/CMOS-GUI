@@ -1,0 +1,3 @@
+a = self.cameraFrame[:, :, 0]
+b = self.cameraFrame[:, :, 1]
+self.cameraFrame = a + b * 255
